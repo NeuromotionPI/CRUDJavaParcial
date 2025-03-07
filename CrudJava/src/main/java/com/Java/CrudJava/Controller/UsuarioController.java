@@ -5,6 +5,12 @@ import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Desarrollado por: [Mercelana Anaya Lemaitre]
+ * Fecha: [6/03/2025]
+ * Descripción: Crud en Java Spring boot.
+ */
+
 @RestController
 @RequestMapping("/usuarios")
 public class UsuarioController {
@@ -13,6 +19,7 @@ public class UsuarioController {
 
     @GetMapping
     public List<String> listar() {
+
         return usuarios;
     }
 
